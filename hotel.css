@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Croissant+One&family=Dancing+Script:wght@700&family=Pacifico&family=Poppins&display=swap');
+
+*{
+   font-family: 'Bricolage Grotesque', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-transform: capitalize;
+   border: none;
+   text-decoration: none;
+}
+   
+html{
+    font-size: 70%;
+    overflow-x: hidden;
+}
+
+body{
+    /* overflow-x: hidden; */
+    background-image: url(./hotel.jpg);
+    /* background-position: center; */
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(191, 191, 211);   
+    
+}
+
+header{
+   /* position: fixed;  */
+   top: 0;
+   left: 0;
+   right: 0;
+   /* background:rgb(4, 3, 45); */
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem 9% ;
+}
+
+header .logo{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #fafdff;
+    text-transform: uppercase;
+}
+
+header .logo span{
+    color: rgb(160, 187, 40);
+}
+
+.navbar{
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5vw;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: .8rem
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar li a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fafdff;
+    font-weight: 500;
+    letter-spacing: 0.09px;
+    position: relative;
+}
+
+.navbar li a:hover{
+    color: rgb(160, 187, 40);
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 2px solid white ;
+    border-radius: 12px;
+    cursor: pointer;
+    color: rgb(23, 8, 79);
+    background-color: rgb(244, 243, 249);
+}
+
+.icon i{
+    font-size: 2.5rem;
+    color: #fafdff;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.container{
+    background-color: rgb(235, 230, 231);
+    opacity: 2;
+    height: 350px;
+    width: 1000px;
+    margin: auto;
+    font-size: 30px;
+    position: relative;
+    margin-top: 120px;
+    margin-left: 180px;
+}
+
+.text-center{
+      text-align: center;
+      color: #000000;
+}
+
+#first-group{
+    border: 3px solid rgb(8, 3, 73);
+    width: 480px;
+    margin-top: 25px;
+    position: absolute;  
+    margin-left: 10px;  
+}
+
+#content{
+    border:1px solid rgb(22, 8, 50) ;
+    margin: 10px;
+    margin-left: 8px;
+    padding: 8px;
+    position: relative;
+    color: rgb(13, 13, 47);
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+#content input{
+   position: relative;
+   background: rgb(250, 247, 247);
+   height: 28px;
+   width: 63%;
+   padding: 0 15px;
+   border: 1px solid rgb(3, 3, 63);
+   font-size: 25px;
+}
+
+#input-group{
+    background-color: #dfd9d9;
+    height: 28px;
+    width: 60%;
+    font-size: 25px;
+}
+
+#second-group{
+    border: 3px solid rgb(21, 21, 55);
+    width: 480px;
+    margin-top: 25px;  
+    margin-left: 500px; 
+}
+
+#submit-btn{
+    margin-top: 20px;
+    margin-left: 700px;
+    background: rgb(0, 0, 28) ; 
+    color: #e6e4eb;
+    width: 200px;
+    border: 1px solid rgb(16, 6, 60);
+    outline: none;
+    padding: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1000px) {
+    .form .input-box{
+        flex-wrap: wrap;
+    }
+} 
+
+.second{
+        background-color: rgb(230, 224, 224);
+        height: 170px;
+        width: 75%;
+        font-size: 10px;
+        margin-left: 180px;
+        margin-top: 5px;
+        border: 2px solid black;
+        
+        
+}
+
+.text{
+    text-align: center;
+}
+
+.ibox{
+    display: flex;
+    column-gap: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+#context{
+    display:contents;
+    margin-left: 8px;
+    padding: 3px;
+    position: relative;
+    color: rgb(13, 13, 47);
+    font-size: 20px;
+    text-align: center;
+}
+
+#context input{
+     position: relative;
+    background: rgb(250, 247, 247);
+    height: 25px;
+    width: 35%;
+    padding: 0 5px;
+    border: 1px solid rgb(3, 3, 63);
+    font-size: 25px;
+    row-gap: 30px;
+    column-gap: 20px;
+    
+
+ }
+ 
+.third{
+    background-color: rgb(247, 242, 242);
+    height: 52px;
+    width: 66%;
+    font-size: 10px;
+    margin-left: 190px;
+    margin-top: 5px;
+    column-gap: 60px;
+    font-size: 15px;
+    border:1px solid #000000;
+}
+.btn
+{
+    margin-left: 190px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Registration Form</title>
+    <link rel="stylesheet" href="hotel.css"> 
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>H</span>otel</a>
+        <nav class="navbar">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#service">service</a></li>  
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#review">review</a></li>
+            <li><button  class="btn">Book Now</button></li>        
+        </nav>
+    </header>
+    <div class="container">
+        <form action="#" class="form">
+            <div class="input-box">
+              <h1 class="text-center">Booking Now</h1>
+              <div id="first-group">
+                 
+                <div id ="content">
+                    <label>Name</label>
+                    <input type="text"/>
+                </div>    
+
+                <div id ="content">
+                    <label>Phone Number</label>
+                    <input type="text"/>
+                </div> 
+
+                <div id ="content">
+                    <label>E-mail</label>
+                    <input type="text"/>
+                </div> 
+
+                <div id ="content">
+                    <label>Member</label>
+                    <select id="input-group" style="background-color: rgb(241, 240, 240);"/>
+                        <option>No.of Guests</option>
+                        <option>1</option>
+                        <option>1-4</option>
+                        <option>5-8</option>
+                    </select>
+                </div> 
+              </div>
+              <div id="second-group">  
+
+                <div id ="content">
+                    <label>Check-in date</label>
+                    <input type="date"/>
+                </div>
+
+                <div id ="content">
+                    <label>Check-out date</label>
+                    <input type="date"/>
+                </div> 
+
+                <div id ="content">
+                    <label>Room Type</label>
+                    <select id="input-group" style="background-color: rgb(255, 255, 255);"/>
+                        <option>Types</option>
+                        <option>Delux</option>
+                        <option>Suite</option>
+                        <option>Single Bed</option>
+                        <option>Double Bed</option>
+                    </select>
+                </div>
+
+                <div id ="content">
+                    <label>Other Avalibility</label>
+                    <select id="input-group" style="background-color: rgb(255, 255, 255);"/>
+                        <option>Room Type</option>
+                        <option>AC</option>
+                        <option>Non-AC</option>
+                        <option>Locker</option>
+                        <option>Extra bed</option>
+                    </select>
+                </div>
+              </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="second">
+      <h1 class="text">Payment Method</h1>
+      <div class="ibox">
+                <label for="check">1. Suite Room: 4000/-</label>
+                <label for="check">2. Delux Room: 2500/-</label>
+                <label for="check">+</label>
+                <label for="check">1. AC: 1000/-</label>
+                <label for="check">2. Locker: 800/-</label>
+                <label for="check">3. Extra Bed: 300/-</label>
+        </div>
+        <div id ="context">
+            <label>Room Cost</label>
+            <input type="text"/>  
+        </div>
+        <div id ="context">
+            <label>Amentities Cost</label>
+            <input type="text"/>  
+         </div>
+         <div id ="context">
+            <label>Total cost</label>
+            <input type="text"/>  
+         </div>
+         <div id ="context">
+                <label>Advance payment</label>
+                <input type="text"/>  
+         </div>
+         <div id ="context">
+            <label>Balance Amount</label>
+            <input type="text"/>  
+    </div>
+    </div>
+    <div class="third">
+           **Important note:
+           <br> - Upto 2 People: No Change in Cost
+           <br>- Per Day Cost for Extra Person: 1000/-
+    </div>
+        
+    <button  type="submit" value="Submit" id="submit-btn" class="btn">Book Now</button> 
+</body>
+</html>
